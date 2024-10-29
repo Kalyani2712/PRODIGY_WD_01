@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/cdd0ffb1dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <a href="#" class="logo">WEBSITE</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Content Sections -->
+    <section id="home">
+        <h1>Welcome to Our Landing Page</h1>
+        <h2>Your Gateway to Innovation and Growth</h2>
+        <p>Your journey to excellence starts here. We provide top-notch services tailored to your needs.</p>
+        <p>With our expert team and innovative solutions, we empower businesses to reach their full potential. Whether you're looking for strategic advice, technical solutions, or long-term support, we have you covered.</p>
+        
+       
+        <div class="home-benefits">
+            <div class="benefit">
+                <i class="fas fa-chart-line"></i>
+                <h3>Proven Results</h3>
+                <p>Our clients consistently see remarkable improvements in efficiency and growth.</p>
+            </div>
+            <div class="benefit">
+                <i class="fas fa-users"></i>
+                <h3>Experienced Team</h3>
+                <p>Our team brings years of experience across industries and skillsets to ensure you get the best support.</p>
+            </div>
+            <div class="benefit">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Innovative Solutions</h3>
+                <p>We stay ahead of the curve, offering forward-thinking solutions that give you a competitive edge.</p>
+            </div>
+        </div>
+      
+        <div class="cta-buttons">
+            <button onclick="scrollToSection('#about')">Learn More About Us</button>
+            <button onclick="scrollToSection('#services')">Explore Our Services</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a leading company in our industry, committed to delivering quality and innovation.</p>
+        <p>Founded in 2020, we have a proven track record of success. Our mission is to provide exceptional services that drive results.</p>
+        <img src="aboutus.jpg" alt="About Us" class="section-image">
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Consulting</h3>
+            <p>Our consulting services help you identify opportunities and implement effective strategies.</p>
+        </div>
+        <div class="service">
+            <h3>Development</h3>
+            <p>We offer software development services that cater to your unique business needs.</p>
+        </div>
+        <div class="service">
+            <h3>Support</h3>
+            <p>Our support team is available 24/7 to ensure your operations run smoothly.</p>
+        </div>
+        <img src="our-service.jpg" alt="Our Services" class="section-image">
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, feel free to reach out!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Email: support@website.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
